@@ -9,8 +9,8 @@ def combine(img1, img2):
     return combined_image
 
 
-image1  = cv2.imread("/users/satish/desktop/img1.png", cv2.IMREAD_COLOR)
-image2 = cv2.imread("/users/satish/desktop/img2.png", cv2.IMREAD_COLOR)
+image1  = cv2.imread("/users/user/desktop/img1.png", cv2.IMREAD_COLOR)
+image2 = cv2.imread("/users/user/desktop/img2.png", cv2.IMREAD_COLOR)
 
 image_3 = combine(image1, image2)
 
